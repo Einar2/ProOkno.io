@@ -163,6 +163,7 @@
     
     .nas_content a {
         font-size: 16px;
+        display: none;
     }
     
     .nas_content a:after{
@@ -221,7 +222,7 @@
     
     .phone_m
     {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 20px;
     }
     
@@ -296,7 +297,9 @@
         padding: 18px 116.5px;
     }
     
-    
+    .phone_m{
+        font-size: 14px;
+    }
     
 /*/Usligi*/
 }
@@ -309,6 +312,8 @@
     .us_item a{
         padding: 18px 110.5px;
     }
+    
+
     
 /*/Usligi*/
 }
