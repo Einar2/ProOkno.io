@@ -78,3 +78,148 @@
 }
 
 
+
+
+
+
+
+@media (max-width: 414px) {
+/*Header*/
+    
+    .header {
+        height: 50vh;
+    }
+    
+    .block_main {
+        margin-top: 50px;
+    }
+    
+    .nav_elems h2{
+        font-size: 26px;
+    }
+    
+    .content_left h1{
+        font-size: 26px;
+    }
+    
+    .content_left p{
+        width: 250px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .content_left a {
+        font-size: 14px;
+        padding: 12px 26px;
+    }
+    
+/*/Header*/
+    
+/*first_text*/
+    
+    .first_text h2 {
+        font-size: 24px;
+        
+    }
+    
+    .first_text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .line{
+        height: 1px;
+        width: 35px;
+    }
+/*/first_text*/
+    
+/*nas_items*/
+    
+    .nas_items{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    .nas_items img{
+        width: 100%;
+    }
+    
+    .nas_content {
+        margin-top: 20px;
+    }
+    
+    
+    .nas_content h2 {
+        font-size: 26px;
+    }
+    
+    .nas_content p{
+        font-size: 14px;
+    }
+    
+    .nas_content a {
+        font-size: 16px;
+    }
+    
+    .nas_content a:after{
+        width: 70px;
+    }
+    
+/*nas_items*/
+    
+/*Uslugi*/
+    
+    .us_item p{
+        font-size: 14px;
+    }
+    
+    .us_item h3{
+        font-size: 24px;
+    }
+    
+/*/Uslugi*/
+    
+/*Prem*/
+    
+    .prem_back{
+        height: 300px;
+    }
+
+    .prem_line{
+        display: none;
+    }
+    
+    .prem_items{
+        flex-wrap: wrap;
+        height: 300px;
+        justify-content: space-around;
+    }
+    
+/*/Prem*/
+    
+/*Forms*/
+    
+    .name{
+        width: 350px;
+    }
+    
+    .input_phone{
+        width: 350px;
+    }
+    
+    .message{
+        width: 350px;
+    }
+    
+/*/Forms*/
+    
+    
+}
+
+
+
+
+
+
+
