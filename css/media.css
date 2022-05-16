@@ -83,7 +83,7 @@
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
 /*Header*/
     
     .header {
@@ -142,7 +142,7 @@
     }
     
     .nas_items img{
-        width: 100%;
+        width: 60%;
     }
     
     .nas_content {
