@@ -214,8 +214,72 @@
     
 /*/Forms*/
     
+/*Mobile*/
+    
+    .phone_m
+    {
+        font-size: 20px;
+    }
+    
+    .nav_items_m a {
+        font-size: 24px;
+    }
+    
+    .cont_text p{
+        font-size: 14px;
+    }
+    
+    .cont_item span{
+        font-size: 16px;
+    }
+    
+    .cont_inputs{
+        text-align: center;
+    }
+    
+    
+    .footer_content h1 {
+        font-size: 24px;
+    }
+    
+    .footer_content p {
+        font-size: 16px;
+    }
+    
+    .footer_content span {
+        font-size: 18px;
+    }
+    
+    .footer_icons{
+        display: none;
+    }
+/*/Mobile*/
+    
     
 }
+
+@media (max-width: 371px) {
+/*Usligi*/
+    
+    .us_item a{
+        padding: 18px 116.5px;
+    }
+    
+/*/Usligi*/
+}
+
+
+
+@media (max-width: 365px) {
+/*Usligi*/
+    
+    .us_item a{
+        padding: 18px 110.5px;
+    }
+    
+/*/Usligi*/
+}
+
 
 
 
