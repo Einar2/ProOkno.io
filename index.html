@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Prookno</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Prookno установка окон, дверей, балконов, роллеты, входные группы в городе Армавир по низкой цене, доставка бесплатно" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     
 <!--Media-->
 
@@ -215,7 +217,7 @@
                        <div class="prem_line"></div>
                        <div class="prem_item">
                            <img src="img/p_4.svg" alt="">
-                           <p>Выгодные <br>
+                           <p id="gal">Выгодные <br>
                             цены</p>
                        </div>
                   </div>
@@ -228,7 +230,7 @@
 
 <!--Block_galery-->
 
-<div id="gal" class="block_galery">
+<div class="block_galery">
     <div class="container">
         <div class="first_text">
             <h2>Галерея</h2>
@@ -260,10 +262,10 @@
 
 <!--Block_contanct-->
 
-<div id="kon" class="block_contanct">
+<div id="" class="block_contanct">
     <div class="container">
-        <div id="konO" class="first_text_contact">
-            <h2>Контакты</h2>
+        <div id="kon" class="first_text_contact">
+            <h2 >Контакты</h2>
             <div class="line_contact"></div>
         </div>
         <div class="cont_content">
@@ -274,14 +276,14 @@
                    
                     <!-- Hidden Required Fields -->
                     <input type="hidden" name="project_name" value="ProOkno">
-                    <input type="hidden" name="admin_email" value="Markin_404@bk.ru">
-                    <input type="hidden" name="form_subject" value="Form Subject">
+                    <input type="hidden" name="admin_email" value="shura.sidorenko.2018@bk.ru">
+                    <input type="hidden" name="form_subject" value="Заказ">
                     <!-- END Hidden Required Fields -->
                    
                    
-                    <input minlength="2" placeholder="Имя" maxlength="20" autocomplete="off" class="name" type="text" name="name"  required> <br>
-                    <input minlength="10" placeholder="Телефон" pattern="\+?[0-9\s\-\(\)]+" autocomplete="off" class="input_phone" type="text" name="phone" required>
-                    <input minlength="11" placeholder="Сообщение" maxlength="500" autocomplete="off" class="message" type="text" name="message" required> <br>
+                    <input minlength="2" placeholder="Имя" maxlength="20" autocomplete="off" class="name" type="text" name="Имя:"  required> <br>
+                    <input minlength="10" placeholder="Телефон" pattern="\+?[0-9\s\-\(\)]+" autocomplete="off" class="input_phone" type="text" name="Телефон:" required>
+                    <textarea minlength="11" placeholder="Сообщение" maxlength="700" autocomplete="off" class="message" type="text" name="Сообщение" style="resize: none;" required></textarea> <br>
                     <button class="btn">Отправить</button>
                 </form>
             </div>
@@ -338,9 +340,14 @@
 
 <!--/Footer-->
 
+<!--JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <script src="js/menu.js"></script>
+<script src="js/mail.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/header.js"></script>
 <script src="js/galery.js"></script>
+<!--/JS-->
 </body>
 </html>
